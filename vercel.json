@@ -1,0 +1,16 @@
+{
+ "version": 2,
+ "builds": [
+  {
+   "src": "ryuko/catalogs/ryukoa.js",
+   "use": "@vercel/node",
+   "config": { "includeFiles": ["dist/**"] }
+  }
+ ],
+ "routes": [
+  {
+   "src": "/(.*)",
+   "dest": "ryuko/catalogs/ryukoa.js"
+  }
+ ]
+}
