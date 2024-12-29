@@ -3,7 +3,7 @@
     "developermode": false,
     "language": "en",
     "notification": true,
-    "approval": true,
+    "approval": false,
     "premium": false,
     "BOTNAME": "Joy-Bot",
     "BOTOWNER": "",
