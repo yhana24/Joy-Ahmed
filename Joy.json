@@ -9,8 +9,8 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "FAIRY BOT V2",
-  "PREFIX": ".",
+  "BOTNAME": "Tadashi BOT V2",
+  "PREFIX": "#",
   "OPERATOR": [
     "61564459952029",
     ""
