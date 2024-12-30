@@ -132,7 +132,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   const randomQuote = randomQuotes[Math.floor(Math.random() * randomQuotes.length)];
 
-  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX: ${global.config.PREFIX} 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}\n\nOwner: ${global.config.BOTOWNER}`;
+  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX: ${global.config.PREFIX} 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}\n\nOwner: MD JUBAED AHMED JOY\n\nFacebook: https://www.facebook.com/profile.php?id=100000121528628\n\nWhatsapp: wa.me/+8801709045888\n\nTelegram: t.me/JOY_AHMED_88`;
 
   return api.shareContact(msg, api.getCurrentUserID(), event.threadID);
 };
