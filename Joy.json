@@ -1,20 +1,29 @@
 {
-    "author": "Joy-Ahmed",
-    "developermode": false,
-    "language": "en",
-    "notification": true,
-    "approval": false,
-    "premium": false,
-    "BOTNAME": "Joy-Bot",
-    "BOTOWNER": "",
-    "PREFIX": "!",
-    "OPERATOR": [
-        "100000121528628"
-    ],
-    "ADMINBOT": [
-        "100000121528628"
-    ],
-    "disabledcmds": [],
-    "disabledevents": [],
-    "note": "make sure that the bot name you entered is all lowercase"
+  "author": "Joy-Ahmed",
+  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "banMsg": false,
+  "adminOnlyMsg": false,
+  "BOTNAME": "Joy-bot",
+  "PREFIX": "/",
+  "OPERATOR": [
+    "61568646922201",
+    "100000121528628"
+  ],
+  "ADMINBOT": [
+    "61568646922201",
+    "100000121528628"
+  ],
+  "OWNER": ["61568646922201"], 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
 }
