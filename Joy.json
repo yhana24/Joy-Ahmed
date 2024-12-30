@@ -10,7 +10,7 @@
   "banMsg": false,
   "adminOnlyMsg": false,
   "BOTNAME": "Joy-bot",
-  "PREFIX": "/",
+  "PREFIX": ".",
   "OPERATOR": [
     "61568646922201",
     "100000121528628"
